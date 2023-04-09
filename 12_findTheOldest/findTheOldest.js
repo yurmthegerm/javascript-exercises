@@ -4,8 +4,8 @@ const findTheOldest = function(array) {
         const currentAge = getAge(
         currentPerson.yearOfBirth,
         currentPerson.yearOfDeath
-    );
-    return oldestAge < currentAge ? currentPerson : oldest;
+        );
+        return oldestAge < currentAge ? currentPerson : oldest;
     })
 };
 
